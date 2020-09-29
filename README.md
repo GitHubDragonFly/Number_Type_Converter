@@ -1,6 +1,8 @@
-# NumberConversion - Windows app to convert from and to different number systems.
+# Number Conversion
 
-Best-effort attempt at number conversion up to 128 bits.
+Windows app to convert from and to different number systems.
+
+This is the best-effort attempt at number conversion up to 128 bits.
 
 Signed & Unsigned Integers, Single, Double, Binary, Octal, Hex values.
 
