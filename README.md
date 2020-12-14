@@ -16,3 +16,9 @@ All the displayed values revolve around the binary representation and/or integer
 - Floating-point binary format is: Sign bit - Exponent bits - Fraction bits (32-bit = 1-8-23 ; 64-bit = 1-11-52)
 - Floating-point equivalent integer representation is packed into the BigInteger number
 - Floating-point equivalent integer representation observes only the Integral part and disregards the Fractional part of the number
+
+# Licensing
+This is licensed under MIT License.
+
+# Trademarks
+Any and all trademarks, either directly on indirectly mentioned in any control, belong to their respective owners.
