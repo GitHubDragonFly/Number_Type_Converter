@@ -21,4 +21,4 @@ All the displayed values revolve around the binary representation and/or integer
 This is licensed under MIT License.
 
 # Trademarks
-Any and all trademarks, either directly on indirectly mentioned in any control, belong to their respective owners.
+Any and all trademarks, either directly on indirectly mentioned in this project, belong to their respective owners.
