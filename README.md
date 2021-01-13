@@ -17,6 +17,16 @@ All the displayed values revolve around the binary representation and/or integer
 - Floating-point equivalent integer representation is packed into the BigInteger number
 - Floating-point equivalent integer representation observes only the Integral part and disregards the Fractional part of the number
 
+# Build
+All it takes is to:
+
+- Download and install Visual Studio community edition (ideally 2019).
+- Download and extract the zip file of this project.
+- Open this as an existing project in Visual Studio and, on the menu, do:
+  - Build/Build Solution (or press Ctrl-Shift-B).
+  - Debug/Start Debugging (or press F5) to run the app.
+- Locate created EXE file in the /bin/Debug folder and copy it over to your preferred folder or Desktop.
+
 # Licensing
 This is licensed under MIT License.
 
