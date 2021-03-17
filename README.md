@@ -31,4 +31,4 @@ All it takes is to:
 This is licensed under MIT License.
 
 # Trademarks
-Any and all trademarks, either directly on indirectly mentioned in this project, belong to their respective owners.
+Any and all trademarks, either directly or indirectly mentioned in this project, belong to their respective owners.
