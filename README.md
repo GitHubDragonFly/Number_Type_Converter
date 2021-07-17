@@ -24,12 +24,12 @@ All the displayed values revolve around the binary representation and/or integer
 - Floating-point equivalent integer representation is packed into the BigInteger number
 - Floating-point equivalent integer representation observes only the Integral part and disregards the Fractional part of the number
 - If you want to use the BYTE logic for floating-point numbers then you will have to perform 2 conversions, here is an example:
-  - Select "Float32" data type, enter number "1.2241" and then check its representation under "BinaryF32", which should show the following:
+  - Select `Float32` data type, enter number "1.2241" and then check its representation under `BinaryF32`, which should show the following:
    - 0 01111111 00111001010111101001111 which is Sign bit - Exponent bits - Fraction bits representation
    - This is 32 bits so they can be divided into 4 bytes (4 groups of 8 bits)
   - Right click and copy this binary number
-  - Switch to "Binary" data type, right click and paste the number, hit "Convert" button or just press Enter
-  - Now you can see how those 4 bytes are interpreted by integer data types, ex. "Int8" will show "63, -100, -81, 79" while "Int32" will show "1067233103"
+  - Switch to `Binary` data type, right click and paste the number, hit `Convert` button or just press Enter
+  - Now you can see how those 4 bytes are interpreted by integer data types, ex. `Int8` will show "63, -100, -81, 79" while `Int32` will show "1067233103"
   - Also, the floating-point numbers section now shows a representation of "1067233103" and not the number "1.2241" we started with
  
 # Build
