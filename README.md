@@ -19,14 +19,14 @@ All the displayed values revolve around the binary representation and/or integer
 - The required number of bits will be achieved by either splitting the original bits into groups or extending it while observing the sign
 - The weight of all the displayed values is: Hi <----> Lo.
 
-- Floating-point numbers are somewhat special and that's why they are in their own section
+Floating-point numbers are somewhat special and that's why they are in their own section
 - Floating-point binary format is: Sign bit - Exponent bits - Fraction bits (32-bit = 1-8-23 ; 64-bit = 1-11-52)
 - Floating-point equivalent integer representation is packed into the BigInteger number
 - Floating-point equivalent integer representation observes only the Integral part and disregards the Fractional part of the number
 - If you want to use the BYTE logic for floating-point numbers then you will have to perform 2 conversions, here is an example:
   - Select `Float32` data type, enter number "1.2241" and then check its representation under `BinaryF32`, which should show the following:
-   - 0 01111111 00111001010111101001111 which is Sign bit - Exponent bits - Fraction bits representation
-   - This is 32 bits so they can be divided into 4 bytes (4 groups of 8 bits)
+   - `0 01111111 00111001010111101001111` which is Sign bit - Exponent bits - Fraction bits representation
+   - This is 32 bits so it can be looked at as 4 bytes (4 groups of 8 bits)
   - Right click and copy this binary number
   - Switch to `Binary` data type, right click and paste the number, hit `Convert` button or just press Enter
   - Now you can see how those 4 bytes are interpreted by integer data types, ex. `Int8` will show "63, -100, -81, 79" while `Int32` will show "1067233103"
