@@ -19,9 +19,9 @@ All the displayed values revolve around the binary representation and/or integer
 - Any number will be looked at with the required number of bits for the data type of the display:
   - For example, if you select Int64 then the binary will show 64 bits regardless of what valid number from the 64-bit range you enter
   - All other data types that have that same number within their own range will then display it as such
-- All the data types that can represent the value will have it be displayed directly, otherwise multiple values of that data type will be displayed
+  - All other data types that don't have that same number within their own range will then display multiple values of that data type
 - The required number of bits will be achieved by either splitting the original bits into groups or extending it while observing the sign
-- The weight of all the displayed values is: Hi <----> Lo.
+- The weight of all the displayed values is `Hi <----> Lo`.
 
 Floating-point numbers are somewhat special and that's why they are in their own section
 - Floating-point binary format is: Sign bit - Exponent bits - Fraction bits (32-bit = 1-8-23 ; 64-bit = 1-11-52)
