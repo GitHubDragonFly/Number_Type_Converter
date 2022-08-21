@@ -19,12 +19,12 @@ All the displayed values revolve around the binary representation and/or integer
 - Any number will be looked at with the required number of bits for the data type of the display:
   - For example, if you select Int64 then the binary will show 64 bits regardless of what valid number from the 64-bit range you enter
   - All other data types that have that same number within their own range will then display it as such
-  - All other data types that don't have that same number within their own range will then display multiple values of that data type
+  - All other data types that don't have that same number within their own range will then display multiple values with each value representing the number of bytes required for their own data type and extracted from the binary representation of the original number
 - The required number of bits will be achieved by either splitting the original bits into groups or extending it while observing the sign
 - The weight of all the displayed values is `Hi <----> Lo`.
 
 Floating-point numbers are somewhat special and that's why they are in their own section
-- Floating-point binary format is: Sign bit - Exponent bits - Fraction bits (32-bit = 1-8-23 ; 64-bit = 1-11-52)
+- Floating-point binary format is: Sign bit - Exponent bits - Fraction bits (ex.: 32-bit = 1-8-23 ; 64-bit = 1-11-52)
 - Floating-point equivalent integer representation is packed into the BigInteger number
 - Floating-point equivalent integer representation observes only the Integral part and disregards the Fractional part of the number
 - If you want to use the BYTE logic for floating-point numbers then you will have to perform 2 conversions, here is an example:
