@@ -8,6 +8,8 @@ Signed & Unsigned Integers, Single, Double, Binary, Octal, Hex values.
 
 An open mind and some knowledge of number systems, hopefully binary, is required in order to understand the displayed values.
 
+Possibly of good use to those who are dealing with Programmable Logic Controllers (PLC) and different data types.
+
 # Screenshot
 
 ![Start Page](screenshot/Number%20Conversion.png?raw=true)
