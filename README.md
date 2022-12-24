@@ -11,9 +11,9 @@ An open mind and some knowledge of number systems, hopefully binary, is required
 Possibly of good use to those who are dealing with Programmable Logic Controllers (PLC) and different data types.
 Some Modbus logic was used here.
 
-# Screenshot
+# Number Conversion App
 
-![Start Page](screenshot/Number%20Conversion.png?raw=true)
+![Number Conversion App](screenshot/Number%20Conversion.png?raw=true)
 
 # Functionality
 All the displayed values revolve around the binary representation and/or integer promotion/demotion, with the following logic being used:
@@ -24,7 +24,9 @@ All the displayed values revolve around the binary representation and/or integer
   - All other data types that have that same number within their own range will then display it as such
   - All other data types that don't have that same number within their own range will then display multiple values with each value representing the number of bytes required for their own data type and extracted from the binary representation of the original number
 - The required number of bits will be achieved by either splitting the original bits into groups or extending it while observing the sign
-- The weight of all the displayed values is `Hi <----> Lo`.
+- The weight of all the displayed values is `Hi <----> Lo` and with the following picture helping understand it:
+
+![Number Systems](screenshot/Number%20Systems.png?raw=true)
 
 Floating-point numbers are somewhat special and that's why they are in their own section
 - Floating-point binary format is: Sign bit - Exponent bits - Fraction bits (ex.: 32-bit = 1-8-23 ; 64-bit = 1-11-52)
