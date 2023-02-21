@@ -1,15 +1,19 @@
 # Number Conversion
 
+`COMING SOON`: Check the main [webpage](https://github.com/GitHubDragonFly) for online version
+
 Windows app to convert from and to different number systems.
 
 This is the best-effort attempt at number conversion up to 128 bits.
 
-Signed & Unsigned Integers, Single, Double, Binary, Octal, Hex values.
+Supported number types are signed & unsigned integers, floating point, binary, octal, hex numbers with some possible terminology:
+- `Int8` `UInt8` `Int16` `UInt16` `Int32` `UInt32` `Int64` `UInt64` `Int128` `UInt128` 
+- `SBYTE` `BYTE` `SHORT` `USHORT` `INT` `UINT` `DINT` `UDINT` `LONG`
+- `Float32` `Float64` `REAL` `FLOAT` `SINGLE` `DOUBLE`
 
 An open mind and some knowledge of number systems, hopefully binary, is required in order to understand the displayed values.
 
-Possibly of good use to those who are dealing with Programmable Logic Controllers (PLC) and different data types.
-Some Modbus logic was used here.
+Possibly of good use to those who are dealing with Programmable Logic Controllers (PLC) - some Modbus logic was used here. All is good as educational resource.
 
 # Number Conversion App
 
