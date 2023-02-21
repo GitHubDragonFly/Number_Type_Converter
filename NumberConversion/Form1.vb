@@ -264,7 +264,7 @@ Public Class Form1
                             End If
                         Next
 
-                        If tempVar.Length > 44 OrElse (tempVar.Length = 44 AndAlso CInt(tempVar.Substring(0, 1)) > 1) Then
+                        If tempVar.Length > 43 OrElse (tempVar.Length = 43 AndAlso CInt(tempVar.Substring(0, 1)) > 3) Then
                             MessageBox.Show("Too large of an octal number!")
                             Exit Sub
                         End If
