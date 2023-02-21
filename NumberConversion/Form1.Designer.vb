@@ -248,7 +248,7 @@ Partial Class Form1
         Me.Key9.BackColor = System.Drawing.Color.Linen
         Me.Key9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key9.ForeColor = System.Drawing.Color.Blue
-        Me.Key9.Location = New System.Drawing.Point(364, 112)
+        Me.Key9.Location = New System.Drawing.Point(399, 112)
         Me.Key9.Name = "Key9"
         Me.Key9.Size = New System.Drawing.Size(29, 31)
         Me.Key9.TabIndex = 330
@@ -260,7 +260,7 @@ Partial Class Form1
         Me.Key8.BackColor = System.Drawing.Color.Linen
         Me.Key8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key8.ForeColor = System.Drawing.Color.Blue
-        Me.Key8.Location = New System.Drawing.Point(329, 112)
+        Me.Key8.Location = New System.Drawing.Point(364, 112)
         Me.Key8.Name = "Key8"
         Me.Key8.Size = New System.Drawing.Size(29, 31)
         Me.Key8.TabIndex = 329
@@ -272,7 +272,7 @@ Partial Class Form1
         Me.Key7.BackColor = System.Drawing.Color.Linen
         Me.Key7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key7.ForeColor = System.Drawing.Color.Blue
-        Me.Key7.Location = New System.Drawing.Point(294, 112)
+        Me.Key7.Location = New System.Drawing.Point(329, 112)
         Me.Key7.Name = "Key7"
         Me.Key7.Size = New System.Drawing.Size(29, 31)
         Me.Key7.TabIndex = 328
@@ -284,7 +284,7 @@ Partial Class Form1
         Me.Key6.BackColor = System.Drawing.Color.Linen
         Me.Key6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key6.ForeColor = System.Drawing.Color.Blue
-        Me.Key6.Location = New System.Drawing.Point(259, 112)
+        Me.Key6.Location = New System.Drawing.Point(294, 112)
         Me.Key6.Name = "Key6"
         Me.Key6.Size = New System.Drawing.Size(29, 31)
         Me.Key6.TabIndex = 327
@@ -296,7 +296,7 @@ Partial Class Form1
         Me.Key5.BackColor = System.Drawing.Color.Linen
         Me.Key5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key5.ForeColor = System.Drawing.Color.Blue
-        Me.Key5.Location = New System.Drawing.Point(224, 112)
+        Me.Key5.Location = New System.Drawing.Point(259, 112)
         Me.Key5.Name = "Key5"
         Me.Key5.Size = New System.Drawing.Size(29, 31)
         Me.Key5.TabIndex = 326
@@ -308,7 +308,7 @@ Partial Class Form1
         Me.Key4.BackColor = System.Drawing.Color.Linen
         Me.Key4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key4.ForeColor = System.Drawing.Color.Blue
-        Me.Key4.Location = New System.Drawing.Point(189, 112)
+        Me.Key4.Location = New System.Drawing.Point(224, 112)
         Me.Key4.Name = "Key4"
         Me.Key4.Size = New System.Drawing.Size(29, 31)
         Me.Key4.TabIndex = 325
@@ -320,7 +320,7 @@ Partial Class Form1
         Me.Key3.BackColor = System.Drawing.Color.Linen
         Me.Key3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key3.ForeColor = System.Drawing.Color.Blue
-        Me.Key3.Location = New System.Drawing.Point(154, 112)
+        Me.Key3.Location = New System.Drawing.Point(189, 112)
         Me.Key3.Name = "Key3"
         Me.Key3.Size = New System.Drawing.Size(29, 31)
         Me.Key3.TabIndex = 324
@@ -332,7 +332,7 @@ Partial Class Form1
         Me.Key2.BackColor = System.Drawing.Color.Linen
         Me.Key2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key2.ForeColor = System.Drawing.Color.Blue
-        Me.Key2.Location = New System.Drawing.Point(119, 112)
+        Me.Key2.Location = New System.Drawing.Point(154, 112)
         Me.Key2.Name = "Key2"
         Me.Key2.Size = New System.Drawing.Size(29, 31)
         Me.Key2.TabIndex = 323
@@ -344,7 +344,7 @@ Partial Class Form1
         Me.Key1.BackColor = System.Drawing.Color.Linen
         Me.Key1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key1.ForeColor = System.Drawing.Color.Blue
-        Me.Key1.Location = New System.Drawing.Point(84, 112)
+        Me.Key1.Location = New System.Drawing.Point(119, 112)
         Me.Key1.Name = "Key1"
         Me.Key1.Size = New System.Drawing.Size(29, 31)
         Me.Key1.TabIndex = 322
@@ -356,7 +356,7 @@ Partial Class Form1
         Me.Key0.BackColor = System.Drawing.Color.Linen
         Me.Key0.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Key0.ForeColor = System.Drawing.Color.Blue
-        Me.Key0.Location = New System.Drawing.Point(399, 112)
+        Me.Key0.Location = New System.Drawing.Point(84, 112)
         Me.Key0.Name = "Key0"
         Me.Key0.Size = New System.Drawing.Size(29, 31)
         Me.Key0.TabIndex = 321
