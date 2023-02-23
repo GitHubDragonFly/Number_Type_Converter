@@ -27,6 +27,8 @@ All the displayed values revolve around the binary representation and/or integer
   - For example, if you select Int64 then the binary will show 64 bits regardless of what valid number from the 64-bit range you enter
   - All other data types that have that same number within their own range will then display it as such
   - All other data types that don't have that same number within their own range will then display multiple values with each value representing the number of bytes required for their own data type and extracted from the binary representation of the original number
+    - Signed integers have equivalency for as long as they exist within their own data type
+    - Unsigned integers have equivalency only if they represent the same signed integer
 - The required number of bits will be achieved by either splitting the original bits into groups or extending it while observing the sign
 - The weight of all the displayed values is `Hi <----> Lo` and with the following picture helping understand it:
 
