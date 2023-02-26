@@ -1,12 +1,12 @@
 # Number Conversion
 
-`COMING SOON`: Check the main [webpage](https://github.com/GitHubDragonFly) for online version
+Check the main [webpage](https://github.com/GitHubDragonFly) for the online version of this app.
 
 Windows app to convert from and to different number systems.
 
 This is the best-effort attempt at number conversion up to 128 bits.
 
-Supported number types are signed & unsigned integers, floating point, binary, octal, hex numbers with some possible terminology:
+Supported number types are signed & unsigned integers, floating point, binary, octal and hex numbers with some possible terminology:
 - `Int8` `UInt8` `Int16` `UInt16` `Int32` `UInt32` `Int64` `UInt64` `Int128` `UInt128` 
 - `SBYTE` `BYTE` `SHORT` `USHORT` `INT` `UINT` `DINT` `UDINT` `LONG`
 - `Float32` `Float64` `REAL` `FLOAT` `SINGLE` `DOUBLE`
