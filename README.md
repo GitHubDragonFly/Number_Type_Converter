@@ -8,8 +8,8 @@ This is the best-effort attempt at number conversion up to 128 bits.
 
 Supported number types are signed & unsigned integers, floating point, binary, octal and hex numbers with some possible terminology:
 - `Int8` `UInt8` `Int16` `UInt16` `Int32` `UInt32` `Int64` `UInt64` `Int128` `UInt128` 
-- `SBYTE` `BYTE` `SHORT` `USHORT` `INT` `UINT` `DINT` `UDINT` `LONG`
-- `Float32` `Float64` `REAL` `FLOAT` `SINGLE` `DOUBLE`
+- `SBYTE` `BYTE` `SHORT` `USHORT` `INT` `UINT` `DINT` `UDINT` `LONG` `ULONG`
+- `Float32` `Float64` `REAL` `FLOAT` `SINGLE` `DOUBLE` `LREAL`
 
 An open mind and some knowledge of number systems, hopefully binary, is required in order to understand the displayed values.
 
