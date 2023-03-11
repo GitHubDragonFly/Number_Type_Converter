@@ -11,9 +11,9 @@ Supported number types are signed & unsigned integers, floating point, binary, o
 - `SBYTE` `BYTE` `SHORT` `USHORT` `INT` `UINT` `DINT` `UDINT` `LONG` `ULONG`
 - `Float32` `Float64` `REAL` `FLOAT` `SINGLE` `DOUBLE` `LREAL`
 
-An open mind and some knowledge of number systems, hopefully binary, is required in order to understand the displayed values.
+An open mind and some knowledge of number systems, hopefully binary, will help understand the displayed values.
 
-Possibly of good use to those who are dealing with Programmable Logic Controllers (PLC) - some Modbus logic was used here. All is good as educational resource.
+Possibly of good use to those who are dealing with Programmable Logic Controllers (PLC) - some Modbus logic was used here. All is good as an educational resource.
 
 # Number Conversion App
 
@@ -27,7 +27,7 @@ All the displayed values revolve around the binary representation and/or integer
   - For example, if you select Int64 then the binary will show 64 bits regardless of what valid number from the 64-bit range you enter
   - All other data types that have that same number within their own range will then display it as such
   - All other data types that don't have that same number within their own range will then display multiple values with each value representing the number of bytes required for their own data type and extracted from the binary representation of the original number
-    - Signed integers have equivalency for as long as they exist within their own data type
+    - Signed integers have equivalency for as long as the displayed number exist within their own data type
     - Unsigned integers have equivalency only if they represent the same signed integer
 - The required number of bits will be achieved by either splitting the original bits into groups or extending it while observing the sign
 - The weight of all the displayed values is `Hi <----> Lo` and with the following picture helping understand it:
