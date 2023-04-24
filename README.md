@@ -25,8 +25,8 @@ All the displayed values revolve around the binary representation and/or integer
 - `128-bit = 2 x 64-bit = 4 x 32-bit = 8 x 16-bit = 16 x 8-bit` ... `64-bit = 2 x 32-bit = 4 x 16-bit = 8 x 8-bit` ... etc
 - Signed integers have equivalency for as long as the displayed number exist within their own data type
 - Unsigned integers have equivalency only if they represent the same signed integer
-- Any number will be looked at with the required number of bits for the data type of the display:
-  - For example, if you select Int64 then the binary will show 64 bits regardless of what valid number from the 64-bit range you enter
+- Any number will be looked at with the required number of bits for the data type of the display, for example:
+  - If you select Int64 then the binary will show 64 bits regardless of what valid number from the 64-bit range you enter
   - All other data types that have that same integer number within their own range will then display it as such
   - All other data types that don't have that same integer number within their own range will then display multiple values of their own data type:
     - each displayed value is representing the number of bytes required for their own data type
