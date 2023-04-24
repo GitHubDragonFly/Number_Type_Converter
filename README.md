@@ -1,6 +1,6 @@
 # Number Conversion
 
-Check the main [webpage](https://github.com/GitHubDragonFly) for the online version of this app.
+Note: Check the main [webpage](https://github.com/GitHubDragonFly) for the online version of this app.
 
 Windows app to convert from and to different number systems or data types.
 
@@ -23,9 +23,9 @@ Possibly of good use to those who are dealing with Programmable Logic Controller
 All the displayed values revolve around the binary representation and/or integer promotion/demotion, with the following logic being used:
 
 - `128-bit = 2 x 64-bit = 4 x 32-bit = 8 x 16-bit = 16 x 8-bit` ... `64-bit = 2 x 32-bit = 4 x 16-bit = 8 x 8-bit` ... etc
-- Signed integers have equivalency for as long as the displayed number exist within their own data type
+- Signed integers have equivalency for as long as the displayed number exists within their own data type
 - Unsigned integers have equivalency only if they represent the same signed integer
-- Any number will be looked at with the required number of bits for the data type of the display, for example:
+- Any number will be looked at with the required number of bits for the selected data type, for example:
   - If you select Int64 then the binary will show 64 bits regardless of what valid number from the 64-bit range you enter
   - All other data types that have that same integer number within their own range will then display it as such
   - All other data types that don't have that same integer number within their own range will then display multiple values of their own data type:
@@ -40,7 +40,7 @@ Floating-point numbers are somewhat special and that's why they are in their own
 - Floating-point binary format is: Sign bit - Exponent bits - Fraction bits (ex.: 32-bit = 1-8-23 bits ; 64-bit = 1-11-52 bits)
 - Floating-point equivalent integer representation is packed into the BigInteger number
 - Floating-point equivalent integer representation observes only the Integral part and disregards the Fractional part of the number
-- If you want to use the BYTE logic for floating-point numbers then you will have to perform 2 conversions, here is an example:
+- If you want to use the `BYTE` logic for floating-point numbers then you will have to perform 2 conversions, here is an example:
   - Select `Float32` data type, enter number "1.2241" and then check its representation under `BinaryF32`, which should show the following:
      - `0 01111111 00111001010111101001111` which is Sign bit - Exponent bits - Fraction bits representation
   - This is 32 bits so it can be looked at as 4 bytes (4 groups of 8 bits)
