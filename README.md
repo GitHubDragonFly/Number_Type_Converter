@@ -52,6 +52,7 @@ Floating-point numbers are somewhat special and that's why they are in their own
 # Build
 All it takes is to:
 
+- Either use Windows executable file from the `exe` folder or follow the instructions below to build it yourself.
 - Download and install Visual Studio community edition (2022 was used for last updates to this project).
 - Download and extract the zip file of this project.
 - Open this as an existing project in Visual Studio and, on the menu, do:
