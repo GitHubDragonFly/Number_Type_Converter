@@ -1,12 +1,14 @@
 # Number Conversion
 
-Note: Check the main [webpage](https://github.com/GitHubDragonFly) for the online version of this app.
+|    Online Version    | [Webpage](https://githubdragonfly.github.io/viewers/templates/Number%20Conversion.html) |
+|         :--          |                                       :--                                               |
+| Online Version Code  | [Repository](https://github.com/GitHubDragonFly/GitHubDragonFly.github.io)              |
 
 Windows app to convert from and to different number systems or data types.
 
 This is the best-effort attempt at number conversion up to 128 bits.
 
-Supported number or data types are signed & unsigned integers, floating point, binary, octal and hex numbers with some possible terminology:
+Supported number or data types are: signed & unsigned integer, floating point, binary, octal and hex numbers with some possible terminology related to these:
 - `Int8` `UInt8` `Int16` `UInt16` `Int32` `UInt32` `Int64` `UInt64` `Int128` `UInt128` 
 - `SBYTE` `BYTE` `SHORT` `USHORT` `INT` `UINT` `DINT` `UDINT` `LONG` `ULONG`
 - `Float32` `Float64` `REAL` `FLOAT` `SINGLE` `DOUBLE` `LREAL`
@@ -52,7 +54,7 @@ Floating-point numbers are somewhat special and that's why they are in their own
 # Build
 All it takes is to:
 
-- Either use Windows executable file from the `exe` folder or follow the instructions below to build it yourself.
+- Either use the Windows executable file from the `exe` folder or follow the instructions below to build it yourself.
 - Download and install Visual Studio community edition (2022 was used for last updates to this project).
 - Download and extract the zip file of this project.
 - Open this as an existing project in Visual Studio and, on the menu, do:
