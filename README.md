@@ -1,10 +1,12 @@
 # Number Conversion
 
+This repository has Windows based app that can be used to convert from and to different number systems or data types.
+
+Online version is available as well:
+
 |    Online Version    | [Webpage](https://githubdragonfly.github.io/viewers/templates/Number%20Conversion.html) |
 |         :--          |                                       :--                                               |
 | Online Version Code  | [Repository](https://github.com/GitHubDragonFly/GitHubDragonFly.github.io)              |
-
-Windows app to convert from and to different number systems or data types.
 
 This is the best-effort attempt at number conversion up to 128 bits.
 
